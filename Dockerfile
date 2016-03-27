@@ -8,7 +8,7 @@ ENV SBT_URL=https://dl.bintray.com/sbt/native-packages/sbt \
 
 # Install and configure sbt
 RUN cd /opt \
-  && curl -sS -k "${SBT_URL}/${SBT_RELEASE}/sbt-${SBT_RELEASE}.tgz" | tar -xzf - \
+  && curl -jksSL "${SBT_URL}/${SBT_RELEASE}/sbt-${SBT_RELEASE}.tgz" | tar -xzf - \
   && /opt/sbt/bin/sbt -batch
 
 WORKDIR /opt/src
