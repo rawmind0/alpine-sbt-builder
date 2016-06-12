@@ -1,7 +1,7 @@
 alpine-sbt-builder
 =================
 
-A builder image to build java code with sbt. It's based in alpine-base.
+A builder image to build java code with sbt. It comes from [alpine-jvm8][alpine-jvm8].
 
 ## Build
 
@@ -11,7 +11,8 @@ docker build -t rawmind/alpine-sbt-builder:<version> .
 
 ## Versions
 
-- `0.3.3` [(Dockerfile)](https://github.com/rawmind0/alpine-sbt-builder/blob/master/Dockerfile)
+- `0.13.11-3` [(Dockerfile)](https://github.com/rawmind0/alpine-sbt-builder/blob/0.13.11-3/Dockerfile)
+- `0.13.11-2` [(Dockerfile)](https://github.com/rawmind0/alpine-sbt-builder/blob/0.13.11-2/Dockerfile)
 
 ## Usage
 
@@ -23,3 +24,4 @@ docker run  -t --rm \
        alpine-sbt-builder:<version> ./build.sh"
 ```
 
+[alpine-jvm8]: https://github.com/rawmind0/alpine-jvm8/
