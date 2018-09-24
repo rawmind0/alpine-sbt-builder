@@ -11,7 +11,7 @@ docker build -t rawmind/alpine-sbt-builder:<version> .
 
 ## Versions
 
-- `0.13.11-3` [(Dockerfile)](https://github.com/rawmind0/alpine-sbt-builder/blob/0.13.11-3/Dockerfile)
+- `0.13.11-4` [(Dockerfile)](https://github.com/rawmind0/alpine-sbt-builder/blob/0.13.11-4/Dockerfile)
 - `0.13.11-2` [(Dockerfile)](https://github.com/rawmind0/alpine-sbt-builder/blob/0.13.11-2/Dockerfile)
 
 ## Usage
